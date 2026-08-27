@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+
+    <title>Registro</title>
+
+    <link rel="stylesheet" herf="stuyles1,css">
+  </head>
+
+  <body>
+
+    <main class="container">
+
+      <section class="card">
+
+        <div class="header">
+          <h1>Crear cuenta</h1>
+          <p>completa tus datos para registrarte</p>
+        </div>
+
+        <form id="registroForm">
+
+          <div class="campo">
+            <label for="nombre">Nombre</label>
+            <input
+             type="text"
+             id="nombre"
+             placeholder="Tu Nombre"
+             required
+            >
+          </div>
+
+          <div class="campo">
+            <label for="email">Correo Electronico</label>
+            <input
+             type="email"
+             id="email"
+             placeholder="tucorreo@gmail.com"
+             required
+            >
+          </div>
+
+          <div class="campo">
+            <label for="contrasena">Escribe tu contrasena</label>
+            <input 
+             type="password"
+             id="password"
+             placeholder="tucontrasena"
+             required
+            >
+          </div>
+
+          <button type="submit">
+            Crear cuenta
+          </button>
+        </form>
+        
+        <p id="mensaje"></p>
+      
+      </section>
+
+    </main>
+
+    <script scr="script1,js"></script>
+
+  </body>
+</html>
